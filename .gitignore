@@ -1,0 +1,15 @@
+.idea/
+.vscode/
+*.iml
+.env
+backend/target/
+frontend/node_modules/
+frontend/dist/
+
+.env.local
+*.key
+*.pem
+application-local.properties
+build/
+*.log
+.DS_Store
