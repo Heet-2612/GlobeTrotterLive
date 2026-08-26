@@ -30,7 +30,7 @@ public class TripActivity {
     @Column(columnDefinition = "TEXT")
     private String notes;
 
-    @Column(name = "custom_cost")
+    @Column(name = "custom_cost", columnDefinition = "numeric(10,2)")
     private Double customCost;
 
     @Column(name = "activity_order", nullable = false)
