@@ -19,7 +19,7 @@ public class City {
     @Column(nullable = false, length = 100)
     private String region;
 
-    @Column(name = "cost_index", nullable = false)
+    @Column(name = "cost_index", nullable = false, columnDefinition = "numeric(3,2)")
     private Double costIndex;
 
     @Column(nullable = false)
